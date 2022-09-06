@@ -28,14 +28,7 @@ public class Cajero {
     }
 
 
-    public void instanciarCajeros(){
-        Cajero [] cajerosEnBanco = new Cajero[5];
-        cajerosEnBanco [0] = new Cajero("cajero1");
-        cajerosEnBanco [1] = new Cajero("cajero2");
-        cajerosEnBanco [2] = new Cajero("cajero3");
-        cajerosEnBanco [3] = new Cajero("cajero4");
-        cajerosEnBanco [4] = new Cajero("cajero5");
-    }
+
 
 
     public int getOpGlobales() {
